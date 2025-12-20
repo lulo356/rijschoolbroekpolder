@@ -492,6 +492,38 @@ input:focus, textarea:focus{
   height: 20px;
 }
 
+/*Date input fix*/
+input[type="date"]{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  height: 48px;
+  padding: 12px 14px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.form input[type="date"]{
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+@supports (-webkit-touch-callout: none){
+  .form input[type="date"]{
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 600px){
+  input[type="date"]{
+    height: 46px;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 600px){
   .socials{
     gap: 8px;
@@ -508,7 +540,6 @@ input:focus, textarea:focus{
     height: 16px;
   }
 }
-
 
 /* Mobiel */
 @media (max-width: 600px){
@@ -562,4 +593,3 @@ input:focus, textarea:focus{
     height: 80px;
   }
 }
-
