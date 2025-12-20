@@ -494,7 +494,19 @@ input:focus, textarea:focus{
 
 @media (max-width: 600px){
   .socials{
-    grid-template-columns: 1fr; /* onder elkaar op telefoon */
+    grid-template-columns: 1fr; /* onder elkaar */
+    gap: 8px;
+  }
+
+  .socials a{
+    padding: 8px 10px;     /* 🔽 minder hoog */
+    font-size: 14px;       /* 🔽 tekst iets kleiner */
+    gap: 8px;
+  }
+
+  .socials img{
+    width: 16px;           /* 🔑 iconen kleiner */
+    height: 16px;
   }
 }
 
