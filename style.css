@@ -492,6 +492,12 @@ input:focus, textarea:focus{
   height: 20px;
 }
 
+@media (max-width: 600px){
+  .socials{
+    grid-template-columns: 1fr; /* onder elkaar op telefoon */
+  }
+}
+
 
 /* Mobiel */
 @media (max-width: 600px){
