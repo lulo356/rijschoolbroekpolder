@@ -47,6 +47,7 @@ body::before{
   body::before{
     background-position: center 35%;
     background-size: 300px;
+    opacity: 0.050;
   }
 }
 
